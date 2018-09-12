@@ -1,0 +1,86 @@
+div{
+  position: relative;
+}
+
+#backimg{   
+  width: 1920px;
+  height: 1080px;
+  background-image: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-014.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size : 1536px 864px;
+  vertical-align:middle;
+  display:table-cell;
+}
+
+#inback{
+  width: 1536px;
+  height: 864px;
+  margin: auto; 
+}
+
+
+
+h1,h2,h3{
+  text-align : center;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align:middle;
+}
+
+h1{
+  font-size : 50px;
+  margin-top: 100px;
+  color: white;
+}
+
+h2{
+  font-size : 45px;
+  margin : auto;
+}
+
+h3{
+  font-size : 45px;
+  margin : auto;
+}
+
+.firB,.secB,.thiB{
+  width: 500px;
+  height: 65px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+  margin-bottom: 160px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid white;
+  color: white;
+  transition: 0.5s;
+}
+
+
+
+.firB:hover{
+  box-shadow:
+			0 80px 0 0  rgba(255,255,255,1) inset, 
+			0 -80px 0 0  rgba(255,255,255,1) inset;
+  color: BurlyWood;
+}
+
+
+
+.secB:hover{
+   box-shadow:
+			0 80px 0 0  rgba(255,255,255,1) inset, 
+			0 -80px 0 0  rgba(255,255,255,1) inset;
+  color: BurlyWood;
+}
+
+
+
+.thiB:hover{
+   box-shadow:
+			0 80px 0 0  rgba(255,255,255,1) inset, 
+			0 -80px 0 0  rgba(255,255,255,1) inset;
+  color: BurlyWood;
+}
